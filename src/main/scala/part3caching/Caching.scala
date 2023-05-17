@@ -1,9 +1,6 @@
-package part2foundation
+package part3caching
 
-import javafx.scene.effect
-import javafx.scene.effect.SepiaTone
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.storage
 import org.apache.spark.storage.StorageLevel
 
 object Caching {
